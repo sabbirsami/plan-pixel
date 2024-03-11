@@ -25,7 +25,7 @@ const Articles = () => {
     const sortedArticles = [...articles].reverse();
 
     return (
-        <div className="container mx-auto mb-10  py-4 md:my-24 lg:px-24 md:px-7 px-4">
+        <div className="container mx-auto mb-10  py-4 md:my-24 lg:px-24 md:px-7 px-4 overflow-x-hidden">
             <SectionTitle title="Latest Articles" />
 
             {/* className="flex flex-wrap justify-center gap-6" */}
@@ -109,4 +109,3 @@ const ArticleCard = ({ post, idx }) => {
         </motion.div>
     );
 };
-

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const HowWorks = () => {
     return (
-        <div className="container mx-auto md:px-24 px-5  mb-10 md:mt-10 md:mb-48 ">
+        <div className="container mx-auto md:px-24 px-5  mb-10 md:mt-10 md:mb-48 overflow-x-hidden">
             <h2 className="lg:text-6xl md:text-5xl text-2xl text-center font-semibold md:mb-16 mb-2">
                 How It Works & Get <br /> Best Output
             </h2>
